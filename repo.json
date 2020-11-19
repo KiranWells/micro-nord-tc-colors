@@ -8,7 +8,7 @@
       "Version": "1.0.0",
       "Url": "https://github.com/KiranWells/micro-nord-tc-colors/archive/v1.0.0.zip",
       "Require": {
-        "micro": ">=2.0.0"
+        "micro": ">=1.1.3"
       }
     }
   ]
