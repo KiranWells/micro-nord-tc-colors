@@ -1,6 +1,10 @@
-VERSION = "1.1.0"
+VERSION = "1.1.2"
 
-AddRuntimeFile("nord-tc", "colorscheme", "nord-tc.micro")
-AddRuntimeFile("nord-16", "colorscheme", "nord-16.micro")
-AddRuntimeFile("nord-tc-light", "colorscheme", "nord-tc-light.micro")
-AddRuntimeFile("nord-16-light", "colorscheme", "nord-16-light.micro")
+local config = import("micro/config")
+
+function init()
+  config.AddRuntimeFile("nord-tc-t", "colorscheme", "nord-tc.micro")
+  config.AddRuntimeFile("nord-16-t", "colorscheme", "nord-16.micro")
+  config.AddRuntimeFile("nord-tc-light-t", "colorscheme", "nord-tc-light.micro")
+  config.AddRuntimeFile("nord-16-light-t", "colorscheme", "nord-16-light.micro")
+end
