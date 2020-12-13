@@ -5,8 +5,8 @@
   "Website": "https://github.com/KiranWells/micro-nord-tc-colors/",
   "Versions": [
     {
-      "Version": "1.1.2",
-      "Url": "https://github.com/KiranWells/micro-nord-tc-colors/archive/v1.1.2.zip",
+      "Version": "1.1.1",
+      "Url": "https://github.com/KiranWells/micro-nord-tc-colors/archive/v1.1.1.zip",
       "Require": {
         "micro": ">=1.1.3"
       }
