@@ -18,6 +18,8 @@ A [Nord](https://www.nordtheme.com/) colorscheme port for the [Micro](https://mi
 
 Due to the way micro currently works (or at least my understanding of it), you will need to run the `nordsetup` command once after installation to move the colorscheme files to the correct location. This will manually create the colorschemes directory and move all four themes over.
 
+After running this command, you can optionally remove the nord colors plugin, and the colorschemes should remain. After updating the plugin, you will need to run the command again; if the theme files are unchanged, remove them and run the command again.
+
 ### Why do the colors look off?
 
 The truecolor schemes require micro to be started with the environment variable "MICRO_TRUECOLOR" equal to 1 or true. For these, make sure you do:
