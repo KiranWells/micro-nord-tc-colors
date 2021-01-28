@@ -4,7 +4,6 @@ A [Nord](https://www.nordtheme.com/) colorscheme port for the [Micro](https://mi
 
 ## Features
 
-`nordsetup`: A command that sets up the colorscheme files.  
 `nord-tc`: A truecolor dark theme  
 `nord-16`: A 16-color dark theme  
 `nord-tc-light`: A truecolor light theme  
@@ -14,11 +13,7 @@ A [Nord](https://www.nordtheme.com/) colorscheme port for the [Micro](https://mi
 
 ### Why are the themes not showing up?
 
-**IMPORTANT**
-
-Due to the way micro currently works (or at least my understanding of it), you will need to run the `nordsetup` command once after installation to move the colorscheme files to the correct location. This will manually create the colorschemes directory and move all four themes over.
-
-After running this command, you can optionally remove the nord colors plugin, and the colorschemes should remain. After updating the plugin, you will need to run the command again; if the theme files are unchanged, remove them and run the command again.
+This issue should have been fixed with the 1.1.4 update. If you have updated and it is still not working, please open a new issue on the GitHub. (Also, try restarting micro first.)
 
 ### Why do the colors look off?
 
