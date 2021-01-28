@@ -2,10 +2,6 @@
 
 A [Nord](https://www.nordtheme.com/) colorscheme port for the [Micro](https://micro-editor.github.io/index.html) editor.
 
-**IMPORTANT**
-
-Due to the way micro currently works (or at least my understanding of it), you will need to run the `nordsetup` command once after installation to move the colorscheme files to the correct location. This will manually create the colorschemes directory and move all four themes over.
-
 See the help file for other issues, such as off colors or no transparency.
 
 ## Features
