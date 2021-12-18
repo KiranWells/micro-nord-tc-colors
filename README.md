@@ -2,7 +2,23 @@
 
 A [Nord](https://www.nordtheme.com/) colorscheme port for the [Micro](https://micro-editor.github.io/index.html) editor.
 
-See the help file for other issues, such as off colors or no transparency.
+## Installation
+
+To install the colorscheme, first run the following command in terminal:
+
+```
+micro --plugin install nordcolors
+```
+
+Then, open micro and press Ctrl+E. Then type in:
+
+```
+set colorscheme <name>
+```
+
+Where `<name>` can be `nord-tc`, `nord-tc-light`, `nord-16` or `nord-16-light`.
+
+See the [help file](help/nordcolors.md) for troubleshooting issues such as off colors or no transparency.
 
 ## Features
 
